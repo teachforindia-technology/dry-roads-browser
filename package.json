@@ -1,0 +1,47 @@
+{
+  "name": "dry-roads-browser",
+  "description": "Client Utilities for Crossroads",
+  "main": "./dry-roads-browser",
+  "unpkg": "./dry-roads-browser",
+  "author": "Technology - Teach For India <gauraang.bhartiya@teachforindia.org>",
+  "contributors": [
+    "Gauraang <gauraang.bhartiya@teachforindia.org>"
+  ],
+  "version": "0.0.2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teachforindia-technology/dry-roads-browser.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "",
+      "url": ""
+    }
+  ],
+  "dependencies": {
+    "crossroads-js": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.7.0",
+    "dry-roads": "0.0.4",
+    "eslint-plugin-react": "^7.7.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^1.0.1"
+  },
+  "scripts": {
+    "prepublishOnly": "gulp publish"
+  },
+  "keywords": [],
+  "homepage": "",
+  "engines": {
+    "node": ">=8.10.0"
+  }
+}
